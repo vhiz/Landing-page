@@ -6,7 +6,7 @@ export default function Header() {
     <section
       id="header"
       ref={intersectionRef}
-      className="w-full bg-cover bg-fixed  bg-no-repeat snap-start bg-[url('/img1.jpg')] relative"
+      className="w-full bg-cover bg-fixed  bg-no-repeat  bg-[url('/img1.jpg')] relative"
     >
       <div className="absolute animate-fadeIn animate-delay-[1s] w-full h-full bg-base-100/60 flex items-center justify-center">
         <div className="flex flex-col items-center justify-center">

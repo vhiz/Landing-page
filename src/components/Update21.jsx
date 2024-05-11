@@ -3,7 +3,7 @@ import { useInView } from "react-intersection-observer";
 export default function Update21() {
   const { inView, ref: intersectionRef } = useInView({ threshold: 0.5 });
   return (
-    <section className="flex p-3" ref={intersectionRef}>
+    <section id="update" className="flex p-3" ref={intersectionRef}>
       <div className="flex-1">
         <div
           className={`flex h-[30vh] items-center gap-3 w-full p-2 ${

@@ -5,7 +5,11 @@ export default function Beneficiary() {
   const { inView, ref: intersectionRef } = useInView({ threshold: 0.5 });
 
   return (
-    <section className="flex p-4 gap-4 overflow-hidden snap-start" ref={intersectionRef}>
+    <section
+      className="flex p-4 gap-4 overflow-hidden "
+      id="beneficiary"
+      ref={intersectionRef}
+    >
       <div className="flex-[2.5] h-full">
         <div
           className={`relative w-full h-[60%] border-[4px] border-secondary overflow-hidden rounded-lg ${

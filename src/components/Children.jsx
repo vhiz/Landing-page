@@ -3,7 +3,11 @@ import { useInView } from "react-intersection-observer";
 export default function Children() {
   const { inView, ref: intersectionRef } = useInView({ threshold: 0.5 });
   return (
-    <section className="py-8 p-2 flex gap-3 snap-start" ref={intersectionRef}>
+    <section
+      id="children"
+      className="py-8 p-2 flex gap-3 "
+      ref={intersectionRef}
+    >
       <div
         className={`flex-[2.5] bg-[url('/img6.jpg')] bg-cover bg-center bg-no-repeat rounded-md ${
           inView ? "animate-fadeInLeft" : "animate-fadeOutLeft"
@@ -40,7 +44,14 @@ export default function Children() {
             Ministry.
           </div>
         </div>
-        <div className="mt-10 italic text-sm">A quick stroll in the urban center of most states in Nigeria gives the glaring picture of this unfortunate reality. Children as young as five are on the streets, trying to fend for themselves. Those in the rural areas of the country are even worse off. these high figures can be traced majorly to the NorthEastern part of the country, where a number of factors- primarily armed conflict- are responsible</div>
+        <div className="mt-10 italic text-sm">
+          A quick stroll in the urban center of most states in Nigeria gives the
+          glaring picture of this unfortunate reality. Children as young as five
+          are on the streets, trying to fend for themselves. Those in the rural
+          areas of the country are even worse off. these high figures can be
+          traced majorly to the NorthEastern part of the country, where a number
+          of factors- primarily armed conflict- are responsible
+        </div>
       </div>
     </section>
   );

@@ -6,9 +6,9 @@ export default function FoodDrive() {
   const { inView, ref: intersectionRef } = useInView({ threshold: 0.5 });
 
   return (
-    <section ref={intersectionRef} className="flex snap-start">
+    <section id="foodDrive" ref={intersectionRef} className="flex ">
       <div
-        className={`flex-1 bg-base-200 p-3 ${
+        className={`flex-1 p-3 ${
           inView ? "animate-fadeInLeft" : "animate-fadeOutLeft"
         }`}
       >

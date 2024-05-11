@@ -6,11 +6,12 @@ export default function Program() {
   return (
     <section
       ref={intersectionRef}
-      className="w-full bg-cover bg-fixed  bg-no-repeat bg-[url('/img4.jpg')] relative snap-start"
+      id="program"
+      className="w-full bg-cover bg-fixed  bg-no-repeat bg-[url('/img4.jpg')] relative"
     >
       <div className="absolute bottom-0 bg-gradient-to-b to-base-100 from-transparent w-full h-[40%]"></div>
       <div className="bg-base-100/40 h-full w-full flex">
-        <div className="flex-1 flex h-full items-center px-6">
+        <div className="flex-1 flex h-full items-center p-6">
           <div
             className={`card max-w-xl bg-secondary text-secondary-content p-3 flex flex-col gap-4 ${
               inView ? "animate-fadeInUp" : "animate-fadeOutDown"

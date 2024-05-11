@@ -5,7 +5,7 @@ export default function About() {
   const { inView, ref: intersectionRef } = useInView({ threshold: 0.5 });
 
   return (
-    <section className="w-full flex snap-start" ref={intersectionRef}>
+    <section id="about" className="w-full flex h-screen" ref={intersectionRef}>
       <div className="flex-1 flex h-full">
         <div className="flex-1 flex flex-col gap-4 items-center justify-center px-5">
           <div

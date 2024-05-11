@@ -4,7 +4,11 @@ export default function Sponsorship() {
   const { inView, ref: intersectionRef } = useInView({ threshold: 0.5 });
 
   return (
-    <section ref={intersectionRef} className="flex flex-col p-3 gap-4 snap-start">
+    <section
+      id="sponsorship"
+      ref={intersectionRef}
+      className="flex flex-col p-3 gap-4 "
+    >
       <div
         className={`w-full flex h-[50%] ${
           inView ? "animate-fadeInRight" : "animate-fadeOutLeft"
