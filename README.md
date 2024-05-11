@@ -24,6 +24,7 @@
 
 - [About](#about)
 - [Getting Started](#getting_started)
+- [Demo](#demo)
 - [Usage](#usage)
 - [Built Using](#built_using)
 - [Authors](#authors)
@@ -36,7 +37,12 @@ At our organization, we believe that education is the key to unlocking opportuni
 
 In addition to education, we also provide support and assistance to those in need. Whether it's through providing basic necessities such as food and shelter, or offering counseling and mentorship, we are committed to helping individuals overcome challenges and thrive.
 
-Through our programs and services, we aim to create a positive impact in the lives of those we serve. Join us in our mission to make a difference and create a brighter future for all. Thank you for visiting our website and for your support.
+Through our programs and services, we aim to create a positive impact in the lives of those we serve. Join us in our mission to make a difference and create a brighter future for all. Thank you for visiting our website and for your support. 
+
+
+## 🏁 Demo <a name = "demo"></a>
+
+See [Demo](https://landing-page-5aef3.web.app/)
 
 
 ## 🏁 Getting Started <a name = "getting_started"></a>
@@ -83,6 +89,7 @@ npm run dev
 ```
 
 By following these steps, you'll have the landing page project up and running on your local machine. Thank you for your interest in contributing to our organization!
+
 
 <video width="100%" height="240" controls loop autoplay>
   <source src="https://firebasestorage.googleapis.com/v0/b/landing-page-5aef3.appspot.com/o/WhatsApp%20Video%202024-05-11%20at%206.08.55%20PM.mp4?alt=media&token=92d3ab5d-91b5-4fc2-9e65-58f3f64e6e48" type="video/mp4">
