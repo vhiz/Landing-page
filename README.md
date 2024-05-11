@@ -91,7 +91,7 @@ npm run dev
 By following these steps, you'll have the landing page project up and running on your local machine. Thank you for your interest in contributing to our organization!
 
 
-<video width="100%" height="240" controls loop autoplay>
+<video width="100%" height="240" controls loop >
   <source src="https://firebasestorage.googleapis.com/v0/b/landing-page-5aef3.appspot.com/o/WhatsApp%20Video%202024-05-11%20at%206.08.55%20PM.mp4?alt=media&token=92d3ab5d-91b5-4fc2-9e65-58f3f64e6e48" type="video/mp4">
   Your browser does not support the video tag.
 </video>
