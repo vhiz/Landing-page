@@ -12,20 +12,20 @@ import { CiPhone } from "react-icons/ci";
 export default function Navigation() {
   return (
     <div>
-      <ul className="menu bg-base-200 rounded-box fixed right-5 top-10 z-20">
+      <ul className="menu menu-sm justify-between w-screen md:w-fit md:h-fit menu-horizontal md:menu-vertical bg-base-200 md:rounded-box fixed bottom-0 md:right-5 md:top-10 z-20">
         <li>
-          <a className="tooltip tooltip-left" data-tip="Home" href="#header">
+          <a className="tooltip md:tooltip-left" data-tip="Home" href="#header">
             <TiHomeOutline className="h-5 w-5" />
           </a>
         </li>
         <li>
-          <a className="tooltip tooltip-left" data-tip="About" href="#about">
+          <a className="tooltip md:tooltip-left" data-tip="About" href="#about">
             <GoInfo className="h-5 w-5" />
           </a>
         </li>
         <li>
           <a
-            className="tooltip tooltip-left"
+            className="tooltip md:tooltip-left"
             data-tip="Program"
             href="#program"
           >
@@ -34,7 +34,7 @@ export default function Navigation() {
         </li>
         <li>
           <a
-            className="tooltip tooltip-left"
+            className="tooltip md:tooltip-left"
             data-tip="Beneficiaries"
             href="#beneficiary"
           >
@@ -43,7 +43,7 @@ export default function Navigation() {
         </li>
         <li>
           <a
-            className="tooltip tooltip-left"
+            className="tooltip md:tooltip-left"
             data-tip="School"
             href="#children"
           >
@@ -52,7 +52,7 @@ export default function Navigation() {
         </li>
         <li>
           <a
-            className="tooltip tooltip-left"
+            className="tooltip md:tooltip-left"
             data-tip="Sponsorship"
             href="#sponsorship"
           >
@@ -61,7 +61,7 @@ export default function Navigation() {
         </li>
         <li>
           <a
-            className="tooltip tooltip-left"
+            className="tooltip md:tooltip-left"
             data-tip="Food Drive"
             href="#foodDrive"
           >
@@ -70,7 +70,7 @@ export default function Navigation() {
         </li>
         <li>
           <a
-            className="tooltip tooltip-left"
+            className="tooltip md:tooltip-left"
             data-tip="Activities"
             href="#update"
           >
@@ -79,7 +79,7 @@ export default function Navigation() {
         </li>
         <li>
           <a
-            className="tooltip tooltip-left"
+            className="tooltip md:tooltip-left"
             data-tip="Contact"
             href="#contact"
           >
@@ -87,7 +87,7 @@ export default function Navigation() {
           </a>
         </li>
       </ul>
-      <a className="btn btn-circle fixed bottom-10 right-5 z-20" href="#header">
+      <a className="btn btn-circle hidden lg:inline-flex fixed bottom-24 right-5 z-20" href="#header">
         <FaArrowUp />
       </a>
     </div>

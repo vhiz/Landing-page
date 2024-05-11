@@ -3,5 +3,5 @@
 @tailwind utilities;
 
 section {
-  @apply h-screen overflow-hidden snap-center scroll-smooth heropattern-topography-orange-700/10;
+  @apply h-screen lg:overflow-hidden overflow-x-hidden scrollbar-none snap-center scroll-smooth heropattern-topography-orange-700/10;
 }

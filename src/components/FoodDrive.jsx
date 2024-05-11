@@ -13,11 +13,11 @@ export default function FoodDrive() {
         }`}
       >
         <div className="flex flex-col gap-2">
-          <h2 className="text-xl flex items-center gap-1">
+          <h2 className="md:text-xl text-sm flex items-center gap-1">
             <BsStarFill />
             FOOD DRIVE
           </h2>
-          <div className="text-sm italic">
+          <div className="text-xs md:text-sm italic">
             We unanimously agreed that the foundation should crowdfund to get
             food supplies to the families of our beneficiaries in various
             communities. <br /> We launched campaigns on all platforms and
@@ -26,18 +26,18 @@ export default function FoodDrive() {
             district in FCT, Kano and Adamawa States
           </div>
         </div>
-        <div className="mt-5 flex flex-col items-center justify-center gap-6">
+        <div className="mt-10 flex flex-col items-center justify-center gap-6">
           <img
             src="/img9.jpg"
             alt=""
-            className={`w-full h-[30vh] object-contain rounded-md ${
+            className={`w-full h-[10vh] md:h-[20vh]  lg:h-[30vh] object-contain rounded-md animate-twBounce animate-infinite animate-duration-[10s] ${
               inView ? "animate-zoomIn animate-delay-[0.5s]" : "animate-zoomOut"
             }`}
           />
           <img
             src="/img10.jpg"
             alt=""
-            className={`w-full h-[30vh] object-contain rounded-md ${
+            className={`w-full h-[10vh] md:h-[20vh] lg:h-[30vh] object-contain rounded-md animate-twBounce animate-infinite animate-duration-[10s] ${
               inView ? "animate-zoomIn animate-delay-[0.5s]" : "animate-zoomOut"
             }`}
           />
@@ -47,15 +47,15 @@ export default function FoodDrive() {
         <div className="absolute bottom-0 bg-gradient-to-b to-base-100 from-transparent w-full h-[40%]"></div>
         <div className="bg-base-100/50 w-full h-full p-3 flex gap-4">
           <div
-            className={`card max-w-xs text-neutral-content bg-neutral p-4 h-fit ${
+            className={`card max-w-xs text-neutral-content bg-neutral p-2 lg:p-4 h-fit ${
               inView ? "animate-fadeInUp" : "animate-fadeOutDown"
             }`}
           >
-            <h3 className="flex gap-2 text-xl">
+            <h3 className="flex gap-2 text-xs md:text-sm lg:text-xl">
               <BsStarFill />
               DIGITAL LEARNING IN THE LIGHT OF COVID19
             </h3>
-            <div className="italic text-sm">
+            <div className="italic lg:text-sm text-xs">
               To commemorate the Children's Day 2020, we had a webinar with the
               above title. Our goal was to create a platform through the webinar
               to discuss with other CSOs who are involved in any form of
@@ -92,7 +92,7 @@ export default function FoodDrive() {
               </div>
             </div>
           </div>
-          <div className="w-full flex flex-col">
+          <div className="w-full md:flex flex-col hidden">
             <div
               className={`card max-w-xs text-neutral-content bg-neutral p-4 h-fit ${
                 inView
@@ -100,11 +100,11 @@ export default function FoodDrive() {
                   : "animate-fadeOutRight"
               }`}
             >
-              <h3 className="flex gap-2 text-lg">
+              <h3 className="flex gap-2 lg:text-lg">
                 <BsStarFill />
                 FACEBOOK LIVE
               </h3>
-              <div className="italic text-xs mt-2">
+              <div className="italic text-xs lg:mt-2">
                 We had an engaging Facebook Live session to discuss alternative
                 learning strategies for marginalized communities. The session
                 was very interactive with about 137 viewers. We brainstormed on
@@ -120,7 +120,7 @@ export default function FoodDrive() {
                   : "animate-fadeOutRight"
               }`}
             >
-              <h3 className="flex gap-2 text-lg">#HEROESINEDUCATION WEBINAR</h3>
+              <h3 className="flex gap-2 lg:text-lg">#HEROESINEDUCATION WEBINAR</h3>
               <div className="italic text-xs mt-2">
                 To mark the World Humanitarian day 2020 with the theme
                 #RealLifeHeroes, we organized a webinar recognizing some heros
@@ -161,7 +161,7 @@ export default function FoodDrive() {
             </div>
 
             <div
-              className={`card max-w-xs text-neutral-content bg-neutral p-4 h-fit mt-2 ${
+              className={`card hidden lg:flex max-w-xs text-neutral-content bg-neutral p-4 h-fit mt-2 ${
                 inView
                   ? "animate-fadeInRight animate-delay-[1.5s]"
                   : "animate-fadeOutRight"

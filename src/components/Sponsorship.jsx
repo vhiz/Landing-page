@@ -15,7 +15,7 @@ export default function Sponsorship() {
         }`}
       >
         <div
-          className={`text-xs italic self-end ${
+          className={`text-xs hidden md:flex italic self-end ${
             inView ? "animate-fadeIn animate-delay-[0.8s]" : "animate-fadeOut"
           }`}
         >
@@ -32,10 +32,10 @@ export default function Sponsorship() {
             inView ? "animate-fadeIn animate-delay-[0.8s]" : "animate-fadeOut"
           }`}
         >
-          <h2 className="text-4xl font-semibold">
+          <h2 className="lg:text-4xl font-semibold">
             Scholarship <br /> Program
           </h2>
-          <span className="mt-3 font-thin italic">
+          <span className="lg:mt-3 text-xs md:text-base font-thin italic">
             Through the back to school initiative, the foundation has partnered
             with elite private schools to provide scholarships tp deserving out
             of school children. with school like Aflon Digital Academy Kuje and
@@ -54,8 +54,8 @@ export default function Sponsorship() {
             inView ? "animate-fadeIn animate-delay-[0.8s]" : "animate-fadeOut"
           }`}
         >
-          <h2 className="text-4xl font-semibold">Sponsorship</h2>
-          <span className="mt-3 font-thin italic">
+          <h2 className="lg:text-4xl font-semibold">Sponsorship</h2>
+          <span className="lg:mt-3 text-xs md:text-base font-thin italic">
             Through the back to school initiative, the foundation has partnered
             with good Samaritans and credible organizations to send enthusiastic
             out of school children to schools with quality education
@@ -67,7 +67,7 @@ export default function Sponsorship() {
           className="w-[65%] h-[90%] object-cover rounded-md"
         />
         <div
-          className={`text-xs italic self-start ml-2 ${
+          className={`text-xs hidden md:flex italic self-start ml-2 ${
             inView ? "animate-fadeIn animate-delay-[0.8s]" : "animate-fadeOut"
           }`}
         >

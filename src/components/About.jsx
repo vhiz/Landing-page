@@ -5,7 +5,7 @@ export default function About() {
   const { inView, ref: intersectionRef } = useInView({ threshold: 0.5 });
 
   return (
-    <section id="about" className="w-full flex h-screen" ref={intersectionRef}>
+    <section id="about" className="w-full flex md:flex-row flex-col h-screen" ref={intersectionRef}>
       <div className="flex-1 flex h-full">
         <div className="flex-1 flex flex-col gap-4 items-center justify-center px-5">
           <div
@@ -13,13 +13,13 @@ export default function About() {
               inView ? "animate-fadeInLeft" : "animate-fadeOutLeft"
             }`}
           >
-            <div className="text-4xl">
+            <div className="lg:text-4xl text-xl">
               <h2 className="">About</h2>
               <h3 className="font-bold">
                 FlexiSAF <br /> Foundation
               </h3>
             </div>
-            <div className="font-light text-justify">
+            <div className="font-light text-justify text-xs md:text-sm italic lg:text-base">
               FlexiSAF Foundation is a non-governmental organization tha focuses
               on providing access to education for underprivileged children as a
               means to solve the scourge of illiteracy and the problem of out of
@@ -34,7 +34,7 @@ export default function About() {
               inView ? "animate-fadeInLeft" : "animate-fadeOutLeft"
             }`}
           >
-            <div className="font-light text-justify text-sm">
+            <div className="font-light text-justify text-xs">
               FlexiSAF Foundation was founded in 2018 by FlexiSAF Edusoft Ltd as
               a signature initiative that merges cutting-edge technology and
               human will to address Nigeria's education challenges with a
@@ -46,7 +46,7 @@ export default function About() {
           <img
             src="/img2.jpg"
             alt=""
-            className={`w-full h-full rounded-l-md object-cover ${
+            className={`w-full h-full object-cover ${
               inView
                 ? "animate-fadeInRight animate-delay-[1s]"
                 : "animate-fadeOutRight"
@@ -54,7 +54,7 @@ export default function About() {
           />
         </div>
       </div>
-      <div className="flex-1 flex">
+      <div className="flex-1 hidden lg:flex">
         <div className="relative flex-[0.7] h-full">
           <img
             src="/img3.jpg"

@@ -4,8 +4,8 @@ export default function Contact() {
   const { inView, ref: intersectionRef } = useInView({ threshold: 0.5 });
 
   return (
-    <section id="contact" className="flex p-3" ref={intersectionRef}>
-      <div className="flex-1">
+    <section id="contact" className="flex lg:p-3" ref={intersectionRef}>
+      <div className="hidden lg:block flex-1">
         <div
           className={`h-[40%] w-full rounded-md overflow-hidden ${
             inView ? "animate-fadeInLeft" : "animate-fadeOutLeft"
@@ -19,7 +19,7 @@ export default function Contact() {
           }`}
         >
           <h2 className="text-3xl">How can you help</h2>
-          <div className="mt-3 flex italic text-sm">
+          <div className="mt-3 flex italic text-xs">
             <p>
               Every Naira you give to FlexiSAF Foundation is an investment in
               the future. our supporters and partners are ensuring that more
@@ -44,7 +44,7 @@ export default function Contact() {
             }`}
           >
             <h2 className="text-3xl">Volunteer</h2>
-            <div className="mt-3 flex italic text-sm">
+            <div className="mt-3 flex italic text-xs">
               We are always in need of skilled volunteers to join us to combat
               the high rates of out of school children. our volunteers serve as
               mentors, AccLearn instructors, content creators and much more.

@@ -11,7 +11,7 @@ export default function Header() {
       <div className="absolute animate-fadeIn animate-delay-[1s] w-full h-full bg-base-100/60 flex items-center justify-center">
         <div className="flex flex-col items-center justify-center">
           <h2
-            className={`text-8xl font-bold ${
+            className={`lg:text-8xl md:text-6xl text-4xl font-bold ${
               inView
                 ? "animate-bounceIn animate-delay-[1.3s]"
                 : "animate-bounceOut"

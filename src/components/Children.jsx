@@ -9,20 +9,20 @@ export default function Children() {
       ref={intersectionRef}
     >
       <div
-        className={`flex-[2.5] bg-[url('/img6.jpg')] bg-cover bg-center bg-no-repeat rounded-md ${
+        className={`hidden md:flex md:flex-[2] lg:flex-[2.5] bg-[url('/img6.jpg')] bg-cover bg-center bg-no-repeat rounded-md ${
           inView ? "animate-fadeInLeft" : "animate-fadeOutLeft"
         }`}
       >
         <div className="w-full h-full bg-base-100/40 flex items-center p-3">
           <h2
-            className={`text-6xl text-secondary-content font-semibold ${
+            className={`lg:text-6xl text-4xl text-secondary-content font-semibold ${
               inView
                 ? "animate-fadeInDown animate-delay-[0.5s]"
                 : "animate-fadeOut"
             }`}
           >
             There are currently <br />
-            <strong className="text-base-content text-8xl">150+</strong>{" "}
+            <strong className="text-base-content lg:text-8xl text-6xl">150+</strong>{" "}
             children <br /> enrolled in school through <br /> the back to school
             program
           </h2>
