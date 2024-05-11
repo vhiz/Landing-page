@@ -30,7 +30,6 @@ export default function Header() {
           </span>
         </div>
       </div>
-      jj
       <div className="absolute bottom-0 bg-gradient-to-b from-transparent to-base-100 w-full h-[40%]"></div>
     </section>
   );
