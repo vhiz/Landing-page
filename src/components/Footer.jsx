@@ -5,7 +5,7 @@ import { SiGmail } from "react-icons/si";
 
 export default function Footer() {
   return (
-    <footer className="footer fixed bottom-0 items-center p-4 bg-neutral text-neutral-content">
+    <footer className=" hidden md:footer fixed bottom-0 items-center p-4 bg-neutral text-neutral-content">
       <aside className="items-center grid-flow-col">
         <BiLogoOkRu className="text-3xl" />
         <p>Copyright © 2024 - All right reserved</p>
